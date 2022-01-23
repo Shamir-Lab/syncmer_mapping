@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Results
+*.fq
+*.fasta
+*.sam
+*.mmi
