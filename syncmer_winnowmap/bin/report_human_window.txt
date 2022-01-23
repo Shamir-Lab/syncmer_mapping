@@ -1,0 +1,475 @@
+[M::mm_idx_gen::0.238*0.05] reading downweighted kmers
+[M::mm_idx_gen::0.261*0.14] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.261*0.14] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::328.617*1.05] collected minimizers
+[M::mm_idx_gen::328.991*1.06] sorted minimizers
+[M::main::328.992*1.06] loaded/built the index for 639 target sequence(s)
+[M::main::328.992*1.06] running winnowmap in SV-aware mode
+[M::main::328.992*1.06] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::328.992*1.06] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 398; smer size: 4; downsample: 9.500000; syncmer indices: 6 -1 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::329.051*1.06] distinct minimizers: 3723334 (34.38% are singletons); average occurrences: 6.883; average spacing: 127.679
+[M::worker_pipeline::334.369*1.66] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 9.5 -w 398 --s-mer 4 -t 50 --pos1 6 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 334.576 sec; CPU: 554.416 sec; Peak RSS: 10.265 GB
+Unmapped: 
+1262
+MapQ 60: 
+7725
+[M::mm_idx_gen::0.001*19.73] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.49] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.49] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::348.623*1.14] collected minimizers
+[M::mm_idx_gen::351.867*1.34] sorted minimizers
+[M::main::351.868*1.34] loaded/built the index for 639 target sequence(s)
+[M::main::351.868*1.34] running winnowmap in SV-aware mode
+[M::main::351.868*1.34] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::351.868*1.34] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 25; smer size: 5; downsample: 1.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::352.795*1.34] distinct minimizers: 59049672 (26.01% are singletons); average occurrences: 8.372; average spacing: 6.619
+[M::worker_pipeline::359.931*2.15] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1 -w 25 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 360.324 sec; CPU: 775.764 sec; Peak RSS: 17.626 GB
+Unmapped: 
+264
+MapQ 60: 
+8757
+[M::mm_idx_gen::0.001*24.39] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.83] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.83] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::347.238*1.14] collected minimizers
+[M::mm_idx_gen::350.286*1.33] sorted minimizers
+[M::main::350.287*1.33] loaded/built the index for 639 target sequence(s)
+[M::main::350.287*1.33] running winnowmap in SV-aware mode
+[M::main::350.287*1.33] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::350.287*1.33] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 30; smer size: 5; downsample: 1.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::351.444*1.33] distinct minimizers: 58251580 (25.32% are singletons); average occurrences: 8.365; average spacing: 6.715
+[M::worker_pipeline::358.014*2.10] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1 -w 30 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 358.408 sec; CPU: 751.220 sec; Peak RSS: 17.415 GB
+Unmapped: 
+268
+MapQ 60: 
+8759
+[M::mm_idx_gen::0.001*17.81] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.65] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.65] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::347.137*1.14] collected minimizers
+[M::mm_idx_gen::350.108*1.32] sorted minimizers
+[M::main::350.109*1.32] loaded/built the index for 639 target sequence(s)
+[M::main::350.109*1.32] running winnowmap in SV-aware mode
+[M::main::350.109*1.32] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::350.109*1.32] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 34; smer size: 5; downsample: 1.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::351.097*1.32] distinct minimizers: 57983180 (25.11% are singletons); average occurrences: 8.339; average spacing: 6.767
+[M::worker_pipeline::358.124*2.13] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1 -w 34 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 358.518 sec; CPU: 763.568 sec; Peak RSS: 17.273 GB
+Unmapped: 
+269
+MapQ 60: 
+8761
+[M::mm_idx_gen::0.001*20.00] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.64] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.64] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::344.904*1.14] collected minimizers
+[M::mm_idx_gen::347.783*1.32] sorted minimizers
+[M::main::347.784*1.32] loaded/built the index for 639 target sequence(s)
+[M::main::347.784*1.32] running winnowmap in SV-aware mode
+[M::main::347.784*1.32] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::347.784*1.32] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 38; smer size: 5; downsample: 1.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::348.643*1.32] distinct minimizers: 57834883 (25.00% are singletons); average occurrences: 8.309; average spacing: 6.809
+[M::worker_pipeline::355.274*2.08] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1 -w 38 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 355.675 sec; CPU: 740.636 sec; Peak RSS: 17.297 GB
+Unmapped: 
+269
+MapQ 60: 
+8757
+[M::mm_idx_gen::0.001*19.27] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.63] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.63] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::349.332*1.13] collected minimizers
+[M::mm_idx_gen::351.527*1.28] sorted minimizers
+[M::main::351.528*1.28] loaded/built the index for 639 target sequence(s)
+[M::main::351.528*1.28] running winnowmap in SV-aware mode
+[M::main::351.528*1.28] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::351.528*1.28] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 30; smer size: 5; downsample: 1.200000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::351.991*1.28] distinct minimizers: 50038674 (26.77% are singletons); average occurrences: 8.248; average spacing: 7.928
+[M::worker_pipeline::358.216*1.99] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.2 -w 30 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 358.539 sec; CPU: 714.764 sec; Peak RSS: 15.963 GB
+Unmapped: 
+314
+MapQ 60: 
+8740
+[M::mm_idx_gen::0.001*19.21] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.48] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.48] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::347.452*1.13] collected minimizers
+[M::mm_idx_gen::349.648*1.28] sorted minimizers
+[M::main::349.648*1.28] loaded/built the index for 639 target sequence(s)
+[M::main::349.648*1.28] running winnowmap in SV-aware mode
+[M::main::349.648*1.28] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::349.648*1.28] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 36; smer size: 5; downsample: 1.200000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::350.082*1.28] distinct minimizers: 48994847 (25.77% are singletons); average occurrences: 8.286; average spacing: 8.060
+[M::worker_pipeline::356.563*2.04] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.2 -w 36 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 356.864 sec; CPU: 726.272 sec; Peak RSS: 15.758 GB
+Unmapped: 
+316
+MapQ 60: 
+8748
+[M::mm_idx_gen::0.001*14.12] reading downweighted kmers
+[M::mm_idx_gen::0.025*1.77] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.025*1.77] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::358.623*1.12] collected minimizers
+[M::mm_idx_gen::360.756*1.27] sorted minimizers
+[M::main::360.757*1.27] loaded/built the index for 639 target sequence(s)
+[M::main::360.757*1.27] running winnowmap in SV-aware mode
+[M::main::360.757*1.27] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::360.757*1.27] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 40; smer size: 5; downsample: 1.200000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::361.194*1.27] distinct minimizers: 48661925 (25.44% are singletons); average occurrences: 8.281; average spacing: 8.120
+[M::worker_pipeline::367.470*1.95] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.2 -w 40 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 367.776 sec; CPU: 717.540 sec; Peak RSS: 15.237 GB
+Unmapped: 
+316
+MapQ 60: 
+8747
+[M::mm_idx_gen::0.001*19.16] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.66] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.66] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::345.983*1.13] collected minimizers
+[M::mm_idx_gen::347.977*1.27] sorted minimizers
+[M::main::347.978*1.27] loaded/built the index for 639 target sequence(s)
+[M::main::347.978*1.27] running winnowmap in SV-aware mode
+[M::main::347.978*1.27] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::347.978*1.27] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 46; smer size: 5; downsample: 1.200000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::348.402*1.27] distinct minimizers: 48387124 (25.19% are singletons); average occurrences: 8.264; average spacing: 8.182
+[M::worker_pipeline::354.176*1.94] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.2 -w 46 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 354.420 sec; CPU: 687.484 sec; Peak RSS: 16.184 GB
+Unmapped: 
+315
+MapQ 60: 
+8750
+[M::mm_idx_gen::0.001*14.87] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.48] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.48] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::349.755*1.12] collected minimizers
+[M::mm_idx_gen::351.604*1.24] sorted minimizers
+[M::main::351.604*1.24] loaded/built the index for 639 target sequence(s)
+[M::main::351.604*1.24] running winnowmap in SV-aware mode
+[M::main::351.604*1.24] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::351.604*1.24] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 35; smer size: 5; downsample: 1.400000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::352.059*1.24] distinct minimizers: 43513661 (27.44% are singletons); average occurrences: 8.135; average spacing: 9.243
+[M::worker_pipeline::358.466*1.95] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.4 -w 35 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 358.775 sec; CPU: 700.608 sec; Peak RSS: 16.465 GB
+Unmapped: 
+338
+MapQ 60: 
+8729
+[M::mm_idx_gen::0.001*24.01] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.80] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.80] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::351.194*1.12] collected minimizers
+[M::mm_idx_gen::352.927*1.24] sorted minimizers
+[M::main::352.928*1.24] loaded/built the index for 639 target sequence(s)
+[M::main::352.928*1.24] running winnowmap in SV-aware mode
+[M::main::352.928*1.24] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::352.928*1.24] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 43; smer size: 5; downsample: 1.400000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::353.379*1.24] distinct minimizers: 42226389 (26.06% are singletons); average occurrences: 8.218; average spacing: 9.429
+[M::worker_pipeline::358.983*1.87] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.4 -w 43 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 359.319 sec; CPU: 673.152 sec; Peak RSS: 16.479 GB
+Unmapped: 
+339
+MapQ 60: 
+8735
+[M::mm_idx_gen::0.001*18.54] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.64] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.64] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::353.255*1.11] collected minimizers
+[M::mm_idx_gen::354.989*1.23] sorted minimizers
+[M::main::354.990*1.23] loaded/built the index for 639 target sequence(s)
+[M::main::354.990*1.23] running winnowmap in SV-aware mode
+[M::main::354.990*1.23] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::354.990*1.23] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 47; smer size: 5; downsample: 1.400000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::355.446*1.23] distinct minimizers: 41913016 (25.70% are singletons); average occurrences: 8.229; average spacing: 9.488
+[M::worker_pipeline::361.094*1.86] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.4 -w 47 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 361.438 sec; CPU: 671.844 sec; Peak RSS: 16.628 GB
+Unmapped: 
+338
+MapQ 60: 
+8736
+[M::mm_idx_gen::0.001*23.44] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.82] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.82] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::345.438*1.12] collected minimizers
+[M::mm_idx_gen::347.207*1.25] sorted minimizers
+[M::main::347.208*1.25] loaded/built the index for 639 target sequence(s)
+[M::main::347.208*1.25] running winnowmap in SV-aware mode
+[M::main::347.208*1.25] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::347.208*1.25] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 53; smer size: 5; downsample: 1.400000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::347.663*1.24] distinct minimizers: 41624237 (25.38% are singletons); average occurrences: 8.229; average spacing: 9.552
+[M::worker_pipeline::353.215*1.89] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.4 -w 53 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 353.585 sec; CPU: 669.268 sec; Peak RSS: 16.247 GB
+Unmapped: 
+339
+MapQ 60: 
+8737
+[M::mm_idx_gen::0.001*23.84] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.83] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.83] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::359.107*1.11] collected minimizers
+[M::mm_idx_gen::360.688*1.21] sorted minimizers
+[M::main::360.688*1.21] loaded/built the index for 639 target sequence(s)
+[M::main::360.688*1.21] running winnowmap in SV-aware mode
+[M::main::360.688*1.21] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::360.688*1.21] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 40; smer size: 5; downsample: 1.600000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::361.155*1.21] distinct minimizers: 38513117 (27.97% are singletons); average occurrences: 8.041; average spacing: 10.566
+[M::worker_pipeline::366.622*1.82] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.6 -w 40 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 366.973 sec; CPU: 668.968 sec; Peak RSS: 16.056 GB
+Unmapped: 
+356
+MapQ 60: 
+8721
+[M::mm_idx_gen::0.001*18.71] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.49] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.49] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::347.528*1.12] collected minimizers
+[M::mm_idx_gen::349.162*1.23] sorted minimizers
+[M::main::349.163*1.23] loaded/built the index for 639 target sequence(s)
+[M::main::349.163*1.23] running winnowmap in SV-aware mode
+[M::main::349.163*1.23] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::349.163*1.23] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 49; smer size: 5; downsample: 1.600000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::349.624*1.23] distinct minimizers: 37176294 (26.39% are singletons); average occurrences: 8.163; average spacing: 10.782
+[M::worker_pipeline::354.912*1.84] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.6 -w 49 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 355.266 sec; CPU: 652.960 sec; Peak RSS: 15.723 GB
+Unmapped: 
+356
+MapQ 60: 
+8722
+[M::mm_idx_gen::0.001*19.03] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.65] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.65] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::343.299*1.11] collected minimizers
+[M::mm_idx_gen::344.834*1.21] sorted minimizers
+[M::main::344.835*1.21] loaded/built the index for 639 target sequence(s)
+[M::main::344.835*1.21] running winnowmap in SV-aware mode
+[M::main::344.835*1.21] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::344.835*1.21] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 54; smer size: 5; downsample: 1.600000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::345.292*1.21] distinct minimizers: 36804894 (25.91% are singletons); average occurrences: 8.189; average spacing: 10.857
+[M::worker_pipeline::350.580*1.83] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.6 -w 54 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 350.916 sec; CPU: 640.164 sec; Peak RSS: 16.113 GB
+Unmapped: 
+356
+MapQ 60: 
+8725
+[M::mm_idx_gen::0.001*19.26] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.49] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.49] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::342.368*1.11] collected minimizers
+[M::mm_idx_gen::343.913*1.22] sorted minimizers
+[M::main::343.914*1.22] loaded/built the index for 639 target sequence(s)
+[M::main::343.914*1.22] running winnowmap in SV-aware mode
+[M::main::343.914*1.22] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::343.914*1.22] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 61; smer size: 5; downsample: 1.600000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::344.369*1.22] distinct minimizers: 36490343 (25.49% are singletons); average occurrences: 8.203; average spacing: 10.931
+[M::worker_pipeline::349.691*1.83] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.6 -w 61 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 350.027 sec; CPU: 640.388 sec; Peak RSS: 16.495 GB
+Unmapped: 
+357
+MapQ 60: 
+8721
+[M::mm_idx_gen::0.001*11.29] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.48] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.48] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::354.443*1.10] collected minimizers
+[M::mm_idx_gen::355.983*1.20] sorted minimizers
+[M::main::355.983*1.20] loaded/built the index for 639 target sequence(s)
+[M::main::355.983*1.20] running winnowmap in SV-aware mode
+[M::main::355.983*1.20] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::355.983*1.20] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 45; smer size: 5; downsample: 1.800000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::356.446*1.20] distinct minimizers: 34544670 (28.38% are singletons); average occurrences: 7.970; average spacing: 11.884
+[M::worker_pipeline::361.730*1.78] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.8 -w 45 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 362.079 sec; CPU: 644.188 sec; Peak RSS: 15.437 GB
+Unmapped: 
+365
+MapQ 60: 
+8706
+[M::mm_idx_gen::0.001*18.41] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.66] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.66] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::342.623*1.10] collected minimizers
+[M::mm_idx_gen::344.517*1.20] sorted minimizers
+[M::main::344.518*1.20] loaded/built the index for 639 target sequence(s)
+[M::main::344.518*1.20] running winnowmap in SV-aware mode
+[M::main::344.518*1.20] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::344.518*1.20] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 55; smer size: 5; downsample: 1.800000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::345.016*1.20] distinct minimizers: 33206113 (26.64% are singletons); average occurrences: 8.121; average spacing: 12.133
+[M::worker_pipeline::350.109*1.79] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.8 -w 55 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 350.432 sec; CPU: 628.424 sec; Peak RSS: 15.048 GB
+Unmapped: 
+365
+MapQ 60: 
+8702
+[M::mm_idx_gen::0.001*12.04] reading downweighted kmers
+[M::mm_idx_gen::0.025*1.62] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.025*1.62] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::343.127*1.10] collected minimizers
+[M::mm_idx_gen::344.950*1.20] sorted minimizers
+[M::main::344.951*1.20] loaded/built the index for 639 target sequence(s)
+[M::main::344.951*1.20] running winnowmap in SV-aware mode
+[M::main::344.951*1.20] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::344.951*1.20] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 61; smer size: 5; downsample: 1.800000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::345.400*1.20] distinct minimizers: 32799486 (26.06% are singletons); average occurrences: 8.161; average spacing: 12.224
+[M::worker_pipeline::350.479*1.78] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.8 -w 61 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 350.865 sec; CPU: 624.416 sec; Peak RSS: 15.134 GB
+Unmapped: 
+366
+MapQ 60: 
+8705
+[M::mm_idx_gen::0.001*17.93] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.49] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.49] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::340.958*1.10] collected minimizers
+[M::mm_idx_gen::342.719*1.20] sorted minimizers
+[M::main::342.720*1.20] loaded/built the index for 639 target sequence(s)
+[M::main::342.720*1.20] running winnowmap in SV-aware mode
+[M::main::342.720*1.20] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::342.720*1.20] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 69; smer size: 5; downsample: 1.800000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::343.164*1.20] distinct minimizers: 32480265 (25.58% are singletons); average occurrences: 8.185; average spacing: 12.308
+[M::worker_pipeline::348.360*1.80] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 1.8 -w 69 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 348.688 sec; CPU: 628.908 sec; Peak RSS: 14.945 GB
+Unmapped: 
+366
+MapQ 60: 
+8708
+[M::mm_idx_gen::0.001*19.11] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.66] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.66] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::342.494*1.10] collected minimizers
+[M::mm_idx_gen::344.291*1.19] sorted minimizers
+[M::main::344.292*1.19] loaded/built the index for 639 target sequence(s)
+[M::main::344.292*1.19] running winnowmap in SV-aware mode
+[M::main::344.292*1.19] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::344.292*1.19] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 50; smer size: 5; downsample: 2.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::344.745*1.19] distinct minimizers: 31317102 (28.71% are singletons); average occurrences: 7.911; average spacing: 13.208
+[M::worker_pipeline::349.881*1.78] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 2 -w 50 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 350.200 sec; CPU: 621.888 sec; Peak RSS: 14.608 GB
+Unmapped: 
+376
+MapQ 60: 
+8702
+[M::mm_idx_gen::0.001*16.91] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.65] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.65] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::342.376*1.10] collected minimizers
+[M::mm_idx_gen::344.126*1.19] sorted minimizers
+[M::main::344.126*1.19] loaded/built the index for 639 target sequence(s)
+[M::main::344.126*1.19] running winnowmap in SV-aware mode
+[M::main::344.126*1.19] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::344.126*1.19] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 61; smer size: 5; downsample: 2.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::344.809*1.19] distinct minimizers: 30002231 (26.86% are singletons); average occurrences: 8.086; average spacing: 13.487
+[M::worker_pipeline::349.993*1.78] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 2 -w 61 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 350.335 sec; CPU: 624.108 sec; Peak RSS: 14.662 GB
+Unmapped: 
+375
+MapQ 60: 
+8700
+[M::mm_idx_gen::0.001*14.52] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.48] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.48] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::341.155*1.09] collected minimizers
+[M::mm_idx_gen::342.996*1.19] sorted minimizers
+[M::main::342.997*1.19] loaded/built the index for 639 target sequence(s)
+[M::main::342.997*1.19] running winnowmap in SV-aware mode
+[M::main::342.997*1.19] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::342.997*1.19] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 68; smer size: 5; downsample: 2.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::343.431*1.19] distinct minimizers: 29577447 (26.17% are singletons); average occurrences: 8.137; average spacing: 13.595
+[M::worker_pipeline::348.574*1.79] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 2 -w 68 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 348.901 sec; CPU: 623.192 sec; Peak RSS: 14.750 GB
+Unmapped: 
+375
+MapQ 60: 
+8703
+[M::mm_idx_gen::0.001*12.24] reading downweighted kmers
+[M::mm_idx_gen::0.024*1.48] collected downweighted kmers, no. of kmers read=66803
+[M::mm_idx_gen::0.024*1.48] saved the kmers in a bloom filter: hash functions=2 and size=960472 
+[M::mm_idx_gen::340.060*1.10] collected minimizers
+[M::mm_idx_gen::341.860*1.19] sorted minimizers
+[M::main::341.860*1.19] loaded/built the index for 639 target sequence(s)
+[M::main::341.860*1.19] running winnowmap in SV-aware mode
+[M::main::341.860*1.19] stage1-specific parameters minP:2000, incP:2.83, maxP:16000, sample:2000, min-qlen:10000, min-qcov:0.5, min-mapq:5, mid-occ:5000
+[M::main::341.860*1.19] stage2-specific parameters s2_bw:2000, s2_zdropinv:25
+[M::mm_idx_stat] kmer size: 15; window: 76; smer size: 5; downsample: 2.000000; syncmer indices: 3 9 -1 -1; is_hpc: 0; #seq: 639
+[M::mm_idx_stat::342.337*1.19] distinct minimizers: 29290747 (25.69% are singletons); average occurrences: 8.168; average spacing: 13.677
+[M::worker_pipeline::347.469*1.78] mapped 10000 sequences
+[M::main] Version: 2.03, pthreads=50, omp_threads=3
+[M::main] CMD: ./winnowmap -W repetitive_k15_grch38.txt -x map-ont -k 15 --downsample 2 -w 76 --s-mer 5 -t 50 --pos1 3 --pos2 9 -a /specific/netapp5/gaga/guests/abhinav/data_new/references/GCF_000001405.39_GRCh38.p13_genomic.fna /specific/netapp5/gaga/guests/abhinav/data_new/reads/ERR3279003_10k.fq
+[M::main] Real time: 347.801 sec; CPU: 619.252 sec; Peak RSS: 14.808 GB
+Unmapped: 
+378
+MapQ 60: 
+8701
