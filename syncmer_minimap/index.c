@@ -464,11 +464,17 @@ mm_idx_t *mm_idx_str(int w, int k, int is_hpc, int bucket_bits, int n, const cha
 void mm_idx_dump(FILE *fp, const mm_idx_t *mi)
 {
 	uint64_t sum_len = 0;
-	uint32_t x[5], i;
+	uint32_t x[10], i;
 
 	x[0] = mi->w, x[1] = mi->k, x[2] = mi->b, x[3] = mi->n_seq, x[4] = mi->flag;
+	x[5] = mi->pos1; x[6] = mi->pos2; x[7]=mi->pos3; x[8]=mi->pos4; x[9] = mi->s;
+
 	fwrite(MM_IDX_MAGIC, 1, 4, fp);
-	fwrite(x, 4, 5, fp);
+	fwrite(x, 4, 10, fp);
+	double ds[1];
+	ds[0] = mi->ds;
+	fwrite(ds,8,1,fp);
+
 	for (i = 0; i < mi->n_seq; ++i) {
 		if (mi->seq[i].name) {
 			uint8_t l = strlen(mi->seq[i].name);
@@ -505,14 +511,16 @@ void mm_idx_dump(FILE *fp, const mm_idx_t *mi)
 mm_idx_t *mm_idx_load(FILE *fp)
 {
 	char magic[4];
-	uint32_t x[5], i;
+	uint32_t x[10], i;
+	double ds[1];
 	uint64_t sum_len = 0;
 	mm_idx_t *mi;
 
 	if (fread(magic, 1, 4, fp) != 4) return 0;
 	if (strncmp(magic, MM_IDX_MAGIC, 4) != 0) return 0;
-	if (fread(x, 4, 5, fp) != 5) return 0;
-	mi = mm_idx_init(x[0], x[1], x[2], x[4],1.0,5,-1,-1,-1,-1);
+	if (fread(x, 4, 10, fp) != 10) return 0;
+	if (fread(ds,8,1,fp)!=1) return 0;
+	mi = mm_idx_init(x[0], x[1], x[2], x[4],ds[0], x[9],x[5],x[6],x[7],x[8]);
 	mi->n_seq = x[3];
 	mi->seq = (mm_idx_seq_t*)kcalloc(mi->km, mi->n_seq, sizeof(mm_idx_seq_t));
 	for (i = 0; i < mi->n_seq; ++i) {
