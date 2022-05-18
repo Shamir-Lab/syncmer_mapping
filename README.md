@@ -3,7 +3,7 @@ Implementations of syncmer-based long read mappers.
 
 This repository includes syncmer-minimap, syncmer-winnowmap, and analysis scripts associated with our manuscript:
 
-Dutta, A.*, Pellow, D.*, Shamir R. (2022) _Using yncmers improves long-read mapping_, _bioRxiv_. Available at: https://www.biorxiv.org/content/10.1101/2022.01.10.475696v1.full.pdf 
+Dutta, A.*, Pellow, D.*, Shamir R. (2022) _Using Syncmers improves long-read mapping_, _bioRxiv_. Available at: https://www.biorxiv.org/content/10.1101/2022.01.10.475696v1.full.pdf 
 
 ### Contents:
 #### syncmer_minimap/
