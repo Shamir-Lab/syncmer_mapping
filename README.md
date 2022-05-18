@@ -10,8 +10,6 @@ Dutta, A.*, Pellow, D.*, Shamir R. (2022) _Using Syncmers improves long-read map
 c++ codebase for the syncmer-minimap tool
 #### syncmer_winnowmap/
 c++ codebase for the syncmer-winnowmap tool
-#### scripts/
-Analysis scripts and tools used to generate the results presented in our manuscript.
 #### Supplementary File 1
 This is the supplementary data file for our manuscript. It contains:
 - Table 1: Computed theoretical values of the expected conservation for all 1, 2, and 3 parameter syncmer schemes for k = 11, 13, 15, 17, 19 and mutation rates 0, 0.05, 0.15, 0.25.
