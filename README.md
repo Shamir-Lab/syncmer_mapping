@@ -19,3 +19,5 @@ This is the supplementary data file for our manuscript. It contains:
 - SD Table 5: All scheme parameters and results for bar plots.
 - SD Table 6: All scheme parameters and results for scatter plots.
 - SD Table 7: Analysis of uniquely mapped reads.
+- SD Table 8: l2_mut values for non-canonical syncmers computed using simulation
+- SD Table 9: Comparison of scheme rankings for canonical (SD Table 2) and non-canonical (SD Table 8) syncmers.
