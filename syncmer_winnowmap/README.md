@@ -8,7 +8,7 @@ Here we only elaborate on the new syncmer related features that have been incorp
 
 --downsample = option to set the down-sampling factor
 
---pos1,--pos2,--pos3,--pos4 = These options can be used to specify the syncmer parameters. Upto 4-parameter syncmers are supported and judging by their effectiveness, higher parameters are seldom required. By default these paramters have value of -1 so it does not interfere when we want use less than 4 paramters. For eg. to use Sync(0,4) use --pos1 0 , --pos2 4. Currently upto 4 parameters are supported and practically we don't need more parameters.
+--pos1,--pos2,--pos3,--pos4 = These options can be used to specify the syncmer parameters (uses 1-based indexing) . Upto 4-parameter syncmers are supported and judging by their effectiveness, higher parameters are seldom required. By default these paramters have value of -1 so it does not interfere when we want use less than 4 paramters. For eg. to use Sync(1,4) use --pos1 1 , --pos2 4. Currently upto 4 parameters are supported and practically we don't need more parameters.
 
 
 ## Compile
@@ -32,7 +32,7 @@ For either mapping long reads or computing whole-genome alignments,  pre-computi
   ```sh
 	meryl count k=15 output merylDB ref.fa
 	meryl print greater-than distinct=0.9998 merylDB > repetitive_k15.txt
-	./winnowmap -W repetitive_grch38_k15.txt -x map-ont -k 15 -w 50 --downsample 1.23 --s-mer 5 --pos1 0 --pos2 10 -a reference.fna reads.fastq > align.sam
+	./winnowmap -W repetitive_grch38_k15.txt -x map-ont -k 15 -w 50 --downsample 1.23 --s-mer 5 --pos1 1 --pos2 10 -a reference.fna reads.fastq > align.sam
   ```
 The above command uses Sync(0,10) with k=15,s=5 and downsampling = 1.23.
 
